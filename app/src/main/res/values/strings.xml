@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">SportCombat</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="Wing_chun">Wing Chun</string>
+    <string name="Taichi">Taichi</string>
+    <string name="Hung_Gar">Hung Gar</string>
+    <string name="Baguazhang">Baguazhang</string>
+    <string name="Calcio">Calcio</string>
+
+    //Text Wing chun
+    <string name="Wing_date">Apparition: entre le 17e et le 19e siècle</string>
+    <string name="Wing_affil">Affiliation: Kung Fu du sud de la Chine</string>
+    <string name="Wing_carac">Basé sur le self-defense. Gestes rapides des bras et des jambes ciblant les point sensibles. Grande importance de la relaxation.</string>
+
+    //Text Taichi
+    <string name="Taichi_date">Apparition: entre -481 et -403</string>
+    <string name="Taichi_affil">Affiliation: école Chinoise du Wudang</string>
+    <string name="Taichi_carac">Orienté vers la lutte de compétition, les démonstration physiques,
+        la méditation et les bénéfices sur la santé. Actuellement beaucoup de pratiquant du Taichi sont
+        peu intéresser par son aspect combattif et son bien plus attiré par ses bienfaits sur la santé.</string>
+
+    //Text Hung Gar
+    <string name="Hung_date">Apparition: 17e siècle</string>
+    <string name="Hung_affil">Affiliation: style Shaolin du Sud</string>
+    <string name="Hung_carac">Cet art était alors pratiquer dans le secret dans les temple shaolin ou de nombreux réfugiés désiraient échapper à la dynastie Qing.
+	    Cet art se caractérise par des gardes basses encrée dans le sol et se reposant sur la force brut.</string>
+
+    //Text Bagua
+    <string name="Bagua_date">Apparition: 19e siècle</string>
+    <string name="Bagua_affil">Affiliation: école Chinoise du Wudang</string>
+    <string name="Bagua_carac">Cet art martial repose sur de nombreux mouvement circulaires,
+            axant le combat sur l esquive et la capacité de "flow" du combattant.</string>
+
+    //text Calcio
+    <string name="Calcio_date">Apparition: rêgles fixées en 1580</string>
+    <string name="Calcio_affil">Affiliation: -</string>
+    <string name="Calcio_carac">27 joueurs répartit en deux équipes doivent marquer le plus de but possible. Le peu de rêgles établit en fait un sport violent
+	ou mettre KO un joueur adverse est une vrai stratégie, les joueurs blessés n étant pas remplacer. Disparu au cours du XVIIIe siècle, il fut
+	relancé à Florence dans les années 1930.</string>
+
+</resources>

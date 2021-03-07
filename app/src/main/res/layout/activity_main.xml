@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.SportCombat.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#3F51B5"
+            app:popupTheme="@style/Theme.SportCombat.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include layout="@layout/content_main" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textWing"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="58dp"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="@string/Wing_chun"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:onClick="Wing"/>
+
+            <TextView
+                android:id="@+id/textTaichi"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="@string/Taichi"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:onClick="Taichi"/>
+
+            <TextView
+                android:id="@+id/textHung"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="@string/Hung_Gar"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:onClick="Hung"/>
+
+            <TextView
+                android:id="@+id/textBagua"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="@string/Baguazhang"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:onClick="Bagua"/>
+
+            <TextView
+                android:id="@+id/textCalcio"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="@string/Calcio"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:onClick="Calcio"/>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
